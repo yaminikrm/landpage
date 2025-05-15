@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/*first section */
+.bali-img {
+    height: 40vh;
+    width: 100%;
+}
+
+.card-img-top {
+    height: 60vh;
+}
+
+@media (min-width:768px) {
+    .bali-img {
+        height: 95vh;
+        width: 100%;
+    }
+
+    .card-img-top {
+        height: 60vh;
+    }
+}
+
+.bg-container {
+    background-image: url("https://res.cloudinary.com/dlcuxbo8m/image/upload/a_90/v1747214971/white_zka0hy.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 10px;
+}
+
+.bali-pkg-heading {
+    font-family: Lucida Handwriting;
+    font-weight: bold;
+}
+
+@media(min-width:768px) {
+    .bali-pkg-heading {
+        font-family: Lucida Handwriting;
+        font-weight: bold;
+        font-size: 45px;
+    }
+}
+
+
+.bali-cards {
+    background-color: #ffffff;
+}
+
+.cards-container {
+    background-color: #ffffff;
+    padding: 10px;
+
+}
+
+.days-button {
+    background-color: #7f7f7f;
+    font-family: Roboto;
+    font-weight: bold;
+    border-radius: 15px;
+    text-align: center;
+    padding: 3px;
+    color: white;
+    border: none;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.days-button:hover {
+    background-color: #DB0F27;
+}
+
+.validity {
+    font-family: Roboto;
+    color: #6a6a6a;
+    font-weight: bold;
+}
+
+.price {
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.span-element {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+.flights {
+    font-family: Roboto;
+    color: #6a6a6a;
+    font-weight: bold;
+}
+
+.book-now-button {
+    background-color: #DB0F27;
+    width: 100px;
+    font-family: Roboto;
+    font-weight: bold;
+    border-radius: 15px;
+    text-align: center;
+    padding: 3px;
+    color: white;
+    border: none;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+
+
+/*second section */
+
+.destination-heading {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.destination-days-span {
+    font-family: Roboto;
+    font-size: 10px;
+}
+
+.day-wise-places {
+    font-family: Lora;
+    font-size: 10px;
+}
+
+@media(min-width:768px) {
+    .destination-heading {
+        font-family: Helvetica;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .destination-days-span {
+        font-family: Roboto;
+        font-size: 15px;
+    }
+
+    .day-wise-places {
+        font-family: Lora;
+        font-size: 15px;
+    }
+}
+
+.carousel-container {
+    height: 80vh;
+    width: 700px;
+    border-radius: 10px;
+
+}
+
+@media (max-width:768px) {
+    .carousel-container {
+        height: 40vh;
+        width: 300px;
+        border-radius: 10px
+    }
+}
+
+
+.small-side-container {
+    background-color: #D4F1F7;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.nill-container {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.starting-form {
+    font-family: Roboto;
+}
+
+.real-price {
+    font-family: Roboto;
+    text-decoration: line-through;
+}
+
+.low-price {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.per-person {
+    font-family: Roboto;
+    font-size: 10px;
+}
+
+.enquery-button {
+    font-family: Roboto;
+    text-align: center;
+    border-color: #81C6EB;
+    border-width: 2px;
+    background-color: #ffffff;
+    font-weight: bold;
+    color: #81C6EB;
+    border-radius: 15px;
+    padding: 4px;
+}
+
+.prices-container {
+    border-radius: 15px;
+}
+
+@media(min-width:768px) {
+    .attractive-price-container {
+        margin-top: 200px;
+    }
+
+    .enquery-button {
+        font-family: Roboto;
+        text-align: center;
+        border-color: #81C6EB;
+        border-width: 2px;
+        background-color: #ffffff;
+        font-weight: bold;
+        color: #81C6EB;
+        border-radius: 15px;
+        padding: 5px;
+        width: 250px;
+    }
+}
+
+
+.duration {
+    font-family: Roboto;
+    font-size: 10px;
+}
+
+.span-duration {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.package-includes-button {
+    font-family: Roboto;
+    background-color: #bebebe;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+    border: none;
+}
+
+.icons-style {
+    height: 20px;
+}
+
+.inclusions-container {
+    margin: 5px;
+    width: 270px;
+    border-style: groove;
+}
+
+.small-content {
+    padding: 10px;
+}
+
+@media (min-width:768px) {
+    .inclusions-container {
+        margin: 5px;
+        width: 350px;
+        border-style: groove;
+    }
+
+    .icons-style {
+        height: 22px;
+    }
+}
+
+
+.options-container-buttons {
+    padding-bottom: 10px;
+}
+
+.options-button {
+    border: none;
+    background: none;
+    font-family: Roboto;
+    font-size: 10px;
+}
+
+.options-button:hover {
+    background-color: #0000FF;
+    border-radius: 15px;
+}
+
+.day-wise-img {
+    height: 40vh;
+}
+
+@media(min-width:768px) {
+    .options-button {
+        border: none;
+        background: none;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-right: 15px;
+    }
+
+    .day-wise-img {
+        height: 100vh;
+        width: 700px;
+    }
+}
